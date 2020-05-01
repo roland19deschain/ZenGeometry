@@ -11,7 +11,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F7F294EE245CA0EE00DC4599 /* ZenGeometry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenGeometry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F294EE245CA0EE00DC4599 /* ZenGeometry_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZenGeometry_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7F294F1245CA0EE00DC4599 /* ZenGeometry.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZenGeometry.h; sourceTree = "<group>"; };
 		F7F294F2245CA0EE00DC4599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,7 +38,7 @@
 		F7F294EF245CA0EE00DC4599 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7F294EE245CA0EE00DC4599 /* ZenGeometry.framework */,
+				F7F294EE245CA0EE00DC4599 /* ZenGeometry_iOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -74,9 +74,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F7F294ED245CA0EE00DC4599 /* ZenGeometry */ = {
+		F7F294ED245CA0EE00DC4599 /* ZenGeometry-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F7F294F6245CA0EE00DC4599 /* Build configuration list for PBXNativeTarget "ZenGeometry" */;
+			buildConfigurationList = F7F294F6245CA0EE00DC4599 /* Build configuration list for PBXNativeTarget "ZenGeometry-iOS" */;
 			buildPhases = (
 				F7F294E9245CA0EE00DC4599 /* Headers */,
 				F7F294EA245CA0EE00DC4599 /* Sources */,
@@ -87,9 +87,9 @@
 			);
 			dependencies = (
 			);
-			name = ZenGeometry;
+			name = "ZenGeometry-iOS";
 			productName = ZenGeometry;
-			productReference = F7F294EE245CA0EE00DC4599 /* ZenGeometry.framework */;
+			productReference = F7F294EE245CA0EE00DC4599 /* ZenGeometry_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F7F294ED245CA0EE00DC4599 /* ZenGeometry */,
+				F7F294ED245CA0EE00DC4599 /* ZenGeometry-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -325,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F7F294F6245CA0EE00DC4599 /* Build configuration list for PBXNativeTarget "ZenGeometry" */ = {
+		F7F294F6245CA0EE00DC4599 /* Build configuration list for PBXNativeTarget "ZenGeometry-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F7F294F7245CA0EE00DC4599 /* Debug */,
