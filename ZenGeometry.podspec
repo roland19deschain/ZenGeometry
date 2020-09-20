@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ZenGeometry'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.swift_version    = '5.0'
   s.summary          = 'The Swift geometry processing library.'
   s.description      = <<-DESC
