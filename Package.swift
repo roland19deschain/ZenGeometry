@@ -24,5 +24,6 @@ let package = Package(
 			dependencies: [],
 			path: "ZenGeometry/SourceCode/"
 		)
-	]
+	],
+	swiftLanguageVersions: [.v5]
 )
