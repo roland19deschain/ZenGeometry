@@ -22,12 +22,14 @@ public extension LineSegment {
 			ub = -ub
 			denominator = -denominator
 		}
-		guard ua >= 0,
+		guard
+			ua >= 0,
 			ua <= denominator,
 			ub >= 0,
 			ub <= denominator,
-			denominator != 0 else {
-				return nil
+			denominator != 0
+		else {
+			return nil
 		}
 		return CGPoint(
 			x: start.x + ua / denominator * (end.x - start.x),

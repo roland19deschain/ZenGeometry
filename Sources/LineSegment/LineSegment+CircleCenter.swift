@@ -2,7 +2,10 @@ import CoreGraphics
 
 public extension LineSegment {
 	
-	func inCircleCenter(to line: LineSegment, cornerRadius: CGFloat) -> CGPoint? {
+	func inCircleCenter(
+		to line: LineSegment,
+		cornerRadius: CGFloat
+	) -> CGPoint? {
 		guard let CA = intersection(with: line) else {
 			return nil
 		}
@@ -14,19 +17,27 @@ public extension LineSegment {
 		switch (AB1.x > AB0.x, AB1.y > AB0.y) {
 		case (true, true), (false, false):
 			if cw == .clockwise {
-				BC = CGPoint(x: AB0.x + (CA.y - AB0.y) / a * cornerRadius,
-							 y: AB0.y - (CA.x - AB0.x) / a * cornerRadius)
+				BC = CGPoint(
+					x: AB0.x + (CA.y - AB0.y) / a * cornerRadius,
+					y: AB0.y - (CA.x - AB0.x) / a * cornerRadius
+				)
 			} else {
-				BC = CGPoint(x: AB1.x + (CA.y - AB1.y) / a * cornerRadius,
-							 y: AB1.y - (CA.x - AB1.x) / a * cornerRadius)
+				BC = CGPoint(
+					x: AB1.x + (CA.y - AB1.y) / a * cornerRadius,
+					y: AB1.y - (CA.x - AB1.x) / a * cornerRadius
+				)
 			}
 		case (true, false), (false, true):
 			if cw == .clockwise {
-				BC = CGPoint(x: AB0.x + (CA.y - AB0.y) / a * cornerRadius,
-							 y: AB0.y - (CA.x - AB0.x) / a * cornerRadius)
+				BC = CGPoint(
+					x: AB0.x + (CA.y - AB0.y) / a * cornerRadius,
+					y: AB0.y - (CA.x - AB0.x) / a * cornerRadius
+				)
 			} else {
-				BC = CGPoint(x: AB0.x - (CA.y - AB0.y) / a * cornerRadius,
-							 y: AB0.y + (CA.x - AB0.x) / a * cornerRadius)
+				BC = CGPoint(
+					x: AB0.x - (CA.y - AB0.y) / a * cornerRadius,
+					y: AB0.y + (CA.x - AB0.x) / a * cornerRadius
+				)
 			}
 		}
 		return BC
