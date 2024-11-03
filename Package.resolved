@@ -1,16 +1,15 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "ZenSwift",
-        "repositoryURL": "https://github.com/roland19deschain/ZenSwift.git",
-        "state": {
-          "branch": null,
-          "revision": "2925fe81815c307da19abd9afd1dbdc587d975e4",
-          "version": "2.1.0"
-        }
+  "originHash" : "338db79e24ceae18bd43df121c941201fae06f6312acd4b8ce0b416b61644032",
+  "pins" : [
+    {
+      "identity" : "zenswift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/roland19deschain/ZenSwift.git",
+      "state" : {
+        "revision" : "f4ada85cc7ae5ae9ffa0b77b3b440ea930ad8c98",
+        "version" : "2.1.13"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 3
 }
