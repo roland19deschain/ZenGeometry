@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
   spec.name             = 'ZenGeometry'
-  spec.version          = '2.0.1'
-  spec.swift_version    = '5.9'
+  spec.version          = '2.0.2'
+  spec.swift_version    = '5.10'
   spec.summary          = 'The Swift geometry processing library.'
   spec.description      = <<-DESC
 ZenGeometry is a lightweight, high performance geometry library written in Swift
